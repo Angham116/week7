@@ -1,0 +1,25 @@
+{
+  "name": "week7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/logicTest | tap-spec",
+    "dev": "node src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angham116/week7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angham116/week7/issues"
+  },
+  "homepage": "https://github.com/Angham116/week7#readme",
+  "devDependencies": {
+    "supertest": "^3.4.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  }
+}
